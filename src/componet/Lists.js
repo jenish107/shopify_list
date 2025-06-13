@@ -1278,6 +1278,7 @@ export default function Lists() {
         <Box>
           {selectedResources.length !== 0 && <ActionListInPopoverExample />}
         </Box>
+
         <IndexTable
           condensed={useBreakpoints().smDown}
           resourceName={resourceName}

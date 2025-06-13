@@ -14,9 +14,9 @@
   opacity: 0 !important;
   transition: var(--p-motion-ease-in-out);
 }
-/* .Polaris-Page {
+.Polaris-Page {
   max-width: none !important;
-} */
+}
 
 .green_dot {
   display: block;
@@ -55,9 +55,13 @@
   opacity: 1;
 }
 
-/* #markate_inner {
+.marketes_name_child {
+  background-color: red;
+}
+
+#markate_inner {
   height: 60px;
-} */
+}
 .Polaris-Popover__PopoverOverlay #markate_name {
   background-color: rgb(246, 221, 221);
   /* position: absolute; */
