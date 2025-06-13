@@ -1,0 +1,124 @@
+#ArrorIcons {
+  opacity: 0;
+  background-color: red !important;
+}
+#ArrorIcons:hover {
+  opacity: 1;
+}
+
+.visible {
+  opacity: 1 !important;
+  transition: var(--p-motion-ease-in-out);
+}
+.hide {
+  opacity: 0 !important;
+  transition: var(--p-motion-ease-in-out);
+}
+.Polaris-Page {
+  max-width: none !important;
+}
+
+.green_dot {
+  display: block;
+  background-color: var(--p-color-bg-fill-success);
+  height: var(--p-height-300);
+  width: var(--p-width-300);
+  border-radius: var(--p-border-radius-full);
+}
+
+[data-focused]
+  .Polaris-Listbox-TextOption:not(.Polaris-Listbox-TextOption--disabled) {
+  color: var(--p-color-border-emphasis);
+}
+
+.hover_indexCell:hover .Polaris-Icon {
+  opacity: 1;
+}
+.hover_indexCell .Polaris-Icon {
+  margin: 0;
+  opacity: 0;
+}
+.hover_indexCell:hover {
+  background-color: var(--p-color-text-brand-on-bg-fill-hover);
+  transition: var(--p-motion-ease-out);
+}
+
+#hover_EyeIcon {
+  transition: var(--p-motion-ease-in-out);
+}
+#hover_EyeIcon:hover {
+  background-color: var(--p-color-text-brand-on-bg-fill-hover);
+  transition: var(--p-motion-ease-out);
+}
+
+.Polaris-IndexTable__TableRow:hover .Polaris-Icon {
+  opacity: 1;
+}
+
+.marketes_name_child {
+  background-color: red;
+}
+
+#markate_inner {
+  height: 60px;
+}
+.Polaris-Popover__PopoverOverlay #markate_name {
+  background-color: rgb(246, 221, 221);
+  /* position: absolute; */
+}
+.dot_underline {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+#hover_heading_block {
+  transition: var(--p-motion-ease-out);
+}
+
+#hover_heading_block:hover {
+  background-color: var(--p-color-bg-fill-tertiary);
+  transition: var(--p-motion-ease-out);
+}
+#blue_underline {
+  background-color: blue;
+  display: block;
+  width: 56px;
+  height: 5px;
+  position: relative;
+  transform: translate(0px, 0px);
+  border-radius: 16px;
+}
+#pagination {
+  display: none;
+  position: absolute;
+  right: 0px;
+}
+
+@media (max-width: 947px) {
+  .analytics_header:hover #pagination {
+    opacity: 1;
+    transition: var(--p-motion-ease-in-out);
+  }
+  #pagination {
+    transition: var(--p-motion-ease-in-out);
+    opacity: 0;
+    display: flex !important;
+    align-items: center;
+    background: linear-gradient(
+      90deg,
+      transparent 0%,
+      var(--p-color-bg-surface) 48.96%
+    );
+    padding-inline: 2rem;
+  }
+}
+#header_scroll {
+  overflow: hidden;
+}
+#indexFilters .Polaris-BulkActions__BulkActionsLayout {
+  justify-content: start;
+  padding-left: 6rem;
+}
+
+#indexFilters .Polaris-CheckableButton__Label {
+  display: none;
+}
